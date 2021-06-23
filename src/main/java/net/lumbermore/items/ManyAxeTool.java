@@ -1,7 +1,7 @@
-package net.lumbermore.tree;
+package net.lumbermore.items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 
 public class ManyAxeTool implements ToolMaterial {
 
@@ -17,11 +17,6 @@ public class ManyAxeTool implements ToolMaterial {
         return 3976;
     }
 
-    @Override
-    public int getEnchantablility() {
-
-        return 22;
-    }
 
     @Override
     public int getMiningLevel() {
@@ -30,13 +25,19 @@ public class ManyAxeTool implements ToolMaterial {
     }
 
     @Override
-    public float getMiningSpeed() {
-
-        return 3.0f;
+    public Ingredient getRepairIngredient() {
+        return Ingredient.ofItems(Items.DIRT);
     }
 
     @Override
-    public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.DIRT);
+    public float getMiningSpeedMultiplier() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    @Override
+    public int getEnchantability() {
+        // TODO Auto-generated method stub
+        return 22;
     }
     }

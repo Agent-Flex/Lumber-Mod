@@ -6,10 +6,10 @@ import net.fabricmc.fabric.api.block.FabricBlockSettings;
 import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
 
-public class TestPlanks extends Block {
+public class Cherry_Leaves extends Block {
 
-    public TestPlanks() {
-        super(FabricBlockSettings.of(Material.WOOD).breakByHand(true).breakByTool(FabricToolTags.AXES).sounds(BlockSoundGroup.WOOD).strength(3, 0.4f).build());
+    public Cherry_Leaves() {
+        super(FabricBlockSettings.of(Material.LEAVES).breakByHand(true).sounds(BlockSoundGroup.WOOD).build());
     }
 
 

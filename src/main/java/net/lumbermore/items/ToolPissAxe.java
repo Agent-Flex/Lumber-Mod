@@ -1,7 +1,7 @@
-package net.lumbermore.tree;
+package net.lumbermore.items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 
 public class ToolPissAxe implements ToolMaterial {
 
@@ -18,25 +18,25 @@ public class ToolPissAxe implements ToolMaterial {
     }
 
     @Override
-    public int getEnchantablility() {
-
-        return 22;
-    }
-
-    @Override
     public int getMiningLevel() {
 
         return 4;
     }
 
     @Override
-    public float getMiningSpeed() {
-
-        return 15.0f;
+    public Ingredient getRepairIngredient() {
+        return Ingredient.ofItems(Items.DIRT);
     }
 
     @Override
-    public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.DIRT);
+    public float getMiningSpeedMultiplier() {
+        // TODO Auto-generated method stub
+        return 15f;
+    }
+
+    @Override
+    public int getEnchantability() {
+        // TODO Auto-generated method stub
+        return 22;
     }
     }

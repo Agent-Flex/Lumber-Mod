@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "blocks/test_wood2",
+        "front": "blocks/test_wood",
+        "side": "blocks/test_wood",
+        "bottom": "blocks/test_wood2"
+    }
+ }

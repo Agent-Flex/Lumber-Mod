@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "blocks/cherry_log2",
+        "front": "blocks/cherry_log",
+        "side": "blocks/cherry_log",
+        "bottom": "blocks/cherry_log2"
+    }
+ }

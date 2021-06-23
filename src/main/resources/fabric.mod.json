@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "lumbermore",
+  "version": "${version}",
+
+  "name": "More Lumber",
+  "description": "This mod adds more trees, axes, and more!",
+  "authors": [
+    "_AgentFlex"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Agent-Flex/balls"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/lumbermore/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.lumbermore.tree.LumberMore"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

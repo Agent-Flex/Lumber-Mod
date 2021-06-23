@@ -6,9 +6,9 @@ import net.fabricmc.fabric.api.block.FabricBlockSettings;
 import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
 
-public class cherry_log extends Block {
+public class Cherry_Leaves extends Block {
 
-    public cherry_log() {
+    public Cherry_Leaves() {
         super(FabricBlockSettings.of(Material.LEAVES).breakByHand(true).sounds(BlockSoundGroup.WOOD).build());
     }
 

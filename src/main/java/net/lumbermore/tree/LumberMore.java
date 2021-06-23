@@ -2,12 +2,12 @@ package net.lumbermore.tree;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.lumbermore.items.AxeBase;
-import net.lumbermore.items.FireAxeTool;
-import net.lumbermore.items.ManyAxeTool;
-import net.lumbermore.items.ToolMaterialWood;
-import net.lumbermore.items.ToolPissAxe;
-import net.lumbermore.items.ToolRukiryaxe;
+import net.lumbermore.Bases.AxeBase;
+import net.lumbermore.Material.FireAxeTool;
+import net.lumbermore.Material.ManyAxeTool;
+import net.lumbermore.Material.ToolMaterialWood;
+import net.lumbermore.Material.ToolPissAxe;
+import net.lumbermore.Material.ToolRukiryaxe;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;

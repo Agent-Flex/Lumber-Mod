@@ -8,6 +8,6 @@ import net.minecraft.item.ToolMaterial;
 public class FireAxeBase extends AxeItem {
 
     public FireAxeBase(ToolMaterial material) {
-        super(material, -1, -1f, new Item.Settings().group(lumbermore.general));
+        super(material, -1, -1f, new Item.Settings().group(LumberMore.Lumber));
     }
 }

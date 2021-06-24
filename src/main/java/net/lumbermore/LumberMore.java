@@ -21,6 +21,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.lumbermore.Blocks.*;
 
 public class LumberMore implements ModInitializer {
 
@@ -38,7 +39,9 @@ public class LumberMore implements ModInitializer {
 	public static final Block cherry_log = new cherry_log();
 	public static final Block cherry_leaves = new Cherry_Leaves();
 	public static final Block Cherry_Planks = new cherry_planks();
-
+	public static final Block cavecrawlerplanks = new cavecrawlerplanks();
+	public static final Block cavecrawlerlog = new cavecrawlerlog();
+	public static final Block snowglowlog = new snowglowlog();
 	private void RegisterItem(Identifier identity, Item item) {
         Registry.register(Registry.ITEM, identity, item);
     }
@@ -53,18 +56,18 @@ public class LumberMore implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		RegisterBlockWithItem(new Identifier(MODID, "test_wood"), Test_Wood, new BlockItem(Test_Wood, new Item.Settings().group(MODID.general)));
-		RegisterBlockWithItem(new Identifier(MODID, "cherry_leaves"), cherry_leaves, new BlockItem(cherry_leaves, new Item.Settings().group(MODID.general)));
-		RegisterBlockWithItem(new Identifier(MODID, "cherry_log"), cherry_log, new BlockItem(cherry_log, new Item.Settings().group(MODID.general)));
-		RegisterBlockWithItem(new Identifier(MODID, "cherry_planks"), Cherry_Planks, new BlockItem(Cherry_Planks, new Item.Settings().group(MODID.general)));
-		RegisterBlockWithItem(new Identifier(MODID, "test_planks"), Test_Planks, new BlockItem(Test_Planks, new Item.Settings().group(MODID.general)));
+		RegisterBlockWithItem(new Identifier(MODID, "test_wood"), Test_Wood, new BlockItem(Test_Wood, new Item.Settings().group(LumberMore.Lumber)));
+		RegisterBlockWithItem(new Identifier(MODID, "cherry_leaves"), cherry_leaves, new BlockItem(cherry_leaves, new Item.Settings().group(LumberMore.Lumber)));
+		RegisterBlockWithItem(new Identifier(MODID, "cherry_log"), cherry_log, new BlockItem(cherry_log, new Item.Settings().group(LumberMore.Lumber)));
+		RegisterBlockWithItem(new Identifier(MODID, "cherry_planks"), Cherry_Planks, new BlockItem(Cherry_Planks, new Item.Settings().group(LumberMore.Lumber)));
+		RegisterBlockWithItem(new Identifier(MODID, "test_planks"), Test_Planks, new BlockItem(Test_Planks, new Item.Settings().group(LumberMore.Lumber)));
 		RegisterItem(new Identifier(MODID, "test_axe"), new AxeBase(new ToolMaterialWood()));
 		RegisterItem(new Identifier(MODID, "rukiry_axe"), new AxeBase(new ToolRukiryaxe()));
 		RegisterItem(new Identifier(MODID, "many_axe"), new AxeBase(new ManyAxeTool()));
 		RegisterItem(new Identifier(MODID, "fire_axe"), new AxeBase(new FireAxeTool()));
 		RegisterItem(new Identifier(MODID, "piss_axe"), new AxeBase(new ToolPissAxe()));
-		RegisterBlockWithItem(new Identifier(MODID, "cavecrawlerplanks"), cave_crawlerp, new BlockItem(cave_crawlerp, new Item.Settings().group(MODID.general)));
-		RegisterBlockWithItem(new Identifier(MODID, "cavecrawlerlog"), cave_crawler, new BlockItem(cave_crawler, new Item.Settings().group(MODID.general)));
-		RegisterBlockWithItem(new Identifier(MODID, "snowglowlog"), snowglow, new BlockItem(snowglow, new Item.Settings().group(MODID.general)));
+		RegisterBlockWithItem(new Identifier(MODID, "cavecrawlerplanks"), cavecrawlerplanks, new BlockItem(cavecrawlerplanks, new Item.Settings().group(LumberMore.Lumber)));
+		RegisterBlockWithItem(new Identifier(MODID, "cavecrawlerlog"), cavecrawlerlog, new BlockItem(cavecrawlerlog, new Item.Settings().group(LumberMore.Lumber)));
+		RegisterBlockWithItem(new Identifier(MODID, "snowglowlog"), snowglowlog, new BlockItem(snowglowlog, new Item.Settings().group(LumberMore.Lumber)));
 	}
 }

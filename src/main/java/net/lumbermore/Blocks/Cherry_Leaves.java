@@ -9,7 +9,7 @@ import net.minecraft.sound.BlockSoundGroup;
 public class Cherry_Leaves extends Block {
 
     public Cherry_Leaves() {
-        super(FabricBlockSettings.of(Material.LEAVES).breakByHand(true).sounds(BlockSoundGroup.AZALEA_LEAVES).build());
+        super(FabricBlockSettings.of(Material.LEAVES).breakByHand(true).sounds(BlockSoundGroup.OAK_LEAVES).build());
     }
 
 

@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.lumbermore.tree.LumberMore"
+      "net.lumbermore.LumberMore"
     ]
   },
   "mixins": [

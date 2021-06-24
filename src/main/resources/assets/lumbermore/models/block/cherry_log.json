@@ -1,9 +1,9 @@
 {
     "parent": "block/orientable",
     "textures": {
-        "top": "blocks/cherry_log2",
-        "front": "blocks/cherry_log",
-        "side": "blocks/cherry_log",
-        "bottom": "blocks/cherry_log2"
+        "top": "lumbermore:block/cherry_log2",
+        "front": "lumbermore:block/cherry_log",
+        "side": "lumbermore:block/cherry_log",
+        "bottom": "lumbermore:block/cherry_log2"
     }
  }

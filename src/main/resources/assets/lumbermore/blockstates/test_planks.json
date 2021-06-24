@@ -1,5 +1,5 @@
 {
     "variants": {
-           "normal": { "model": "lumbermore:test_planks" }
+           "": { "model": "lumbermore:block/test_planks" }
     }
  }

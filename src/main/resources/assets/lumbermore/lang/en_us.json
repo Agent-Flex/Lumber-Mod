@@ -1,9 +1,12 @@
 {
-    "item.lumbermore.test_axe2": "Endtimes Axe",
-    "item.lumbermore.Rukiryaxe": "Rukiry Axe",
-    "item.lumbermore.test_wood": "Phantom Log",
-    "item.lumbermore.ManyAxe": "Many Axe",
-    "item.lumbermore.cherry_log": "Cherry Log",
-    "item.lumbermore.test_planks": "Phantom Planks",
-    "item.lumbermore.cherry_planks": "Cherry Planks"
+    "item.lumbermore.test_axe": "Endtimes Axe",
+    "item.lumbermore.rukiry_axe": "Rukiry Axe",
+    "block.lumbermore.test_wood": "Phantom Log",
+    "item.lumbermore.many_axe": "Many Axe",
+    "block.lumbermore.cherry_log": "Cherry Log",
+    "block.lumbermore.test_planks": "Phantom Planks",
+    "block.lumbermore.cherry_planks": "Cherry Planks",
+    "item.lumbermore.piss_axe": "Piss Axe.",
+    "block.lumbermore.cherry_leaves": "Cherry Leaves",
+    "item.lumbermore.fire_axe": "Fire Axe"
 }

@@ -1,5 +1,5 @@
 {
     "variants": {
-           "normal": { "model": "lumbermore:test_wood" }
+           "": { "model": "lumbermore:block/test_wood" }
     }
  }

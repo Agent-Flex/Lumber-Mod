@@ -2,8 +2,10 @@ package net.lumbermore;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.lumbermore.Armor.FUCK;
 import net.lumbermore.Bases.AxeBase;
 import net.lumbermore.Material.FireAxeTool;
+import net.lumbermore.Material.FUCKFUCKFUCK;
 import net.lumbermore.Material.ManyAxeTool;
 import net.lumbermore.Material.ToolMaterialWood;
 import net.lumbermore.Material.ToolPissAxe;
@@ -15,6 +17,8 @@ import net.lumbermore.Blocks.cherry_log;
 import net.lumbermore.Blocks.cherry_planks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -22,7 +26,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.lumbermore.Blocks.*;
-
 public class LumberMore implements ModInitializer {
 
 	public static final Item Test_Axe = new Item(new Item.Settings().group(ItemGroup.MISC));
@@ -42,6 +45,10 @@ public class LumberMore implements ModInitializer {
 	public static final Block cavecrawlerplanks = new cavecrawlerplanks();
 	public static final Block cavecrawlerlog = new cavecrawlerlog();
 	public static final Block snowglowlog = new snowglowlog();
+	public static final ArmorMaterial FUCKFUCKFUCK = new FUCKFUCKFUCK();
+
+
+
 	private void RegisterItem(Identifier identity, Item item) {
         Registry.register(Registry.ITEM, identity, item);
     }
@@ -62,6 +69,10 @@ public class LumberMore implements ModInitializer {
 		RegisterBlockWithItem(new Identifier(MODID, "cherry_planks"), Cherry_Planks, new BlockItem(Cherry_Planks, new Item.Settings().group(LumberMore.Lumber)));
 		RegisterBlockWithItem(new Identifier(MODID, "test_planks"), Test_Planks, new BlockItem(Test_Planks, new Item.Settings().group(LumberMore.Lumber)));
 		RegisterItem(new Identifier(MODID, "test_axe"), new AxeBase(new ToolMaterialWood()));
+		RegisterItem(new Identifier(MODID, "FUCK"), new FUCK(FUCKFUCKFUCK, EquipmentSlot.HEAD));
+		RegisterItem(new Identifier(MODID, "FUCK2"), new FUCK(FUCKFUCKFUCK, EquipmentSlot.CHEST));
+		RegisterItem(new Identifier(MODID, "FUCK3"), new FUCK(FUCKFUCKFUCK, EquipmentSlot.LEGS));
+		RegisterItem(new Identifier(MODID, "FUCK4"), new FUCK(FUCKFUCKFUCK, EquipmentSlot.FEET));
 		RegisterItem(new Identifier(MODID, "rukiry_axe"), new AxeBase(new ToolRukiryaxe()));
 		RegisterItem(new Identifier(MODID, "many_axe"), new AxeBase(new ManyAxeTool()));
 		RegisterItem(new Identifier(MODID, "fire_axe"), new AxeBase(new FireAxeTool()));

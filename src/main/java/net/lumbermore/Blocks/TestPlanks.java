@@ -1,4 +1,4 @@
-package net.lumbermore.tree;
+package net.lumbermore.Blocks;
 
 import net.minecraft.block.Block;
 import net.fabricmc.fabric.api.tools.FabricToolTags;

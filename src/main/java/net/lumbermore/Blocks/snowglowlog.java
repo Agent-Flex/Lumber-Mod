@@ -1,6 +1,3 @@
-public class snowglowlog {
-    
-}
 package net.lumbermore.Blocks;
 
 import net.minecraft.block.Block;

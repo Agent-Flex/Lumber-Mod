@@ -1,5 +1,5 @@
-package net.lumbermore.items;
-import net.lumbermore.tree.LumberMore;
+package net.lumbermore.Bases;
+import net.lumbermore.LumberMore;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterial;

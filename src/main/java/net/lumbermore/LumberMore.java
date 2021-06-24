@@ -1,4 +1,4 @@
-package net.lumbermore.tree;
+package net.lumbermore;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -8,6 +8,11 @@ import net.lumbermore.Material.ManyAxeTool;
 import net.lumbermore.Material.ToolMaterialWood;
 import net.lumbermore.Material.ToolPissAxe;
 import net.lumbermore.Material.ToolRukiryaxe;
+import net.lumbermore.Blocks.TestPlanks;
+import net.lumbermore.Blocks.TestWood;
+import net.lumbermore.Blocks.Cherry_Leaves;
+import net.lumbermore.Blocks.cherry_log;
+import net.lumbermore.Blocks.cherry_planks;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;

@@ -1,4 +1,4 @@
-package net.lumbermore.items;
+package net.lumbermore.Material;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.item.Items;

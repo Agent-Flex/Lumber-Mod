@@ -1,5 +1,5 @@
 {
     "variants": {
-           "": { "model": "lumbermore:block/cherry_leaves" }
+           "": { "model": "lumbermore:block/test_leaves" }
     }
  }

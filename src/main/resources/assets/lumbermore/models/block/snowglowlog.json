@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "lumbermore:block/snowglowlog2",
+        "front": "lumbermore:block/snowglowlog",
+        "side": "lumbermore:block/snowglowlog",
+        "bottom": "lumbermore:block/snowglowlog2"
+    }
+ }

@@ -7,6 +7,6 @@ import net.minecraft.item.ToolMaterial;
 public class PissAxeBase extends AxeItem {
 
     public PissAxeBase(ToolMaterial material) {
-        super(material, -1, -1f, new Item.Settings().group(LumberMore.Lumber));
+        super(material, -1, -1f, new Item.Settings().group(lumbermore.general));
     }
 }

@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "lumbermore:block/cavecrawlerlog2",
+        "front": "lumbermore:block/cavecrawlerlog",
+        "side": "lumbermore:block/cavecrawlerlog",
+        "bottom": "lumbermore:block/cavecrawlerlog2"
+    }
+ }

@@ -7,6 +7,6 @@ import net.minecraft.item.ToolMaterial;
 public class AxeBase extends AxeItem {
 
     public AxeBase(ToolMaterial material) {
-        super(material, -4, -4.4f, new Item.Settings().group(ItemGroup.TOOLS));
+        super(material, -4, -2.2f, new Item.Settings().group(ItemGroup.TOOLS));
     }
 }

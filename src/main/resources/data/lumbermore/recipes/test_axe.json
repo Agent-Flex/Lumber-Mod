@@ -2,8 +2,8 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "##",
-        "/#",
-        "/"
+        "#/",
+        " /"
     ],
     "key": {
         "#": {
@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "lumbermore:test_axe2",
+        "item": "lumbermore:test_axe",
         "count": 1
     }
 }

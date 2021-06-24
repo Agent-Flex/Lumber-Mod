@@ -1,5 +1,5 @@
 {
     "variants": {
-           "normal": { "model": "lumbermore:cherry_log" }
+           "": { "model": "lumbermore:block/cherry_log" }
     }
  }

@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "lumbermore:item/test_axe"
+        "layer0": "lumbermore:item/fire_axe"
     }
 }
